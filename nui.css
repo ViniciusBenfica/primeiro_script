@@ -1,0 +1,14 @@
+div{
+    /* Definindo a largura e a altura das divs */
+    width: 100px; height: 100px;
+
+    /* Definindo a cor de fundo das divs */
+    background-color: #fff;
+    
+    /* Definindo  tamanho das letras dentro das divs */
+    font-size: 30px;
+
+    /* Centralizando as divs */
+    margin: auto;
+}
+
