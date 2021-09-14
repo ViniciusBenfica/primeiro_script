@@ -7,7 +7,6 @@ window.addEventListener("message", function(event) {
     let colete = event.data.colete
 
     /* Atribuindo o valor da vida e do colete nas classes vida e colete */
-    $(".vida").text(vida)
-    $(".colete").text(colete)
+    $(".vida").text("vida: " + vida)
+    $(".colete").text("colete: " + colete)
 })
-
